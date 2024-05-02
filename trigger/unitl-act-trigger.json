@@ -1,0 +1,24 @@
+{
+	"name": "unitl-act-trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl-until-act",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 3,
+				"startTime": "2024-05-02T11:02:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
